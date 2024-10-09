@@ -49,9 +49,7 @@ public class ComputeAreaAndPerim {
             case "C": case "c":
                 return new Circle();
             case "R": case "r":
-                return new Rectangle();
-            //Please open the following comment for testing A01_Q3  
-            //Select the lines of code, then use "Ctrl"+"/" keys to toggle comments     
+                return new Rectangle();     
             case "T": case "t":
 	        return new RtTriangle();
             default:
